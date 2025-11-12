@@ -21053,14 +21053,14 @@ button.anchor-button:not(.rinse-button).footer__a--privacy-choices span:focus {
 }
 
 .figure--logo {
-    background-image: url(https://static-prod.rinse.com/assets/bundles/logo--bright.1.sha256-34ec91f736.svg);
+    background-image: url('sparqulen.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     margin-bottom: 0
 }
 
 .figure--logo.logo--icon--inverse {
-    background-image: url(https://static-prod.rinse.com/assets/bundles/logo--icon--white.1.sha256-40ad1ee227.svg);
+    background-image: url('sparqulen.png');
     background-repeat: no-repeat;
     background-size: auto 100%
 }
@@ -21068,7 +21068,7 @@ button.anchor-button:not(.rinse-button).footer__a--privacy-choices span:focus {
 .figure--logo--wordmark {
     height: 16px !important;
     width: 76px !important;
-    background-image: url(https://static-prod.rinse.com/assets/bundles/rinse--wordmark-only.1.sha256-829fe76612.svg);
+    background-image: url("sparqulen.png");
     background-repeat: no-repeat;
     background-size: auto 100%
 }

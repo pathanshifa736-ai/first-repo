@@ -22,9 +22,9 @@
 
 
     <!-- Web Favicons -->
-    <link rel="icon" type="image/png" sizes="16x16" href="https://static-prod.rinse.com/assets/favicon/favicon-16x16.sha256-118c0920d4.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://static-prod.rinse.com/assets/favicon/favicon-32x32.sha256-afdea908e7.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="https://static-prod.rinse.com/assets/favicon/favicon-96x96.sha256-1505975189.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/sparqulen.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/sparqulen.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/sparqulen.png">
 
     <!-- Apple Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="https://static-prod.rinse.com/assets/favicon/apple-icon-57x57.sha256-a1da9262ef.png">
@@ -42,13 +42,13 @@
     <link rel="icon" type="image/png" sizes="192x192" href="https://static-prod.rinse.com/assets/favicon/android-icon-192x192.sha256-2df66a93e3.png">
 
     <!-- Microsoft Favicons -->
-    <meta name="msapplication-TileImage" content="https://static-prod.rinse.com/assets/favicon/ms-icon-144x144.sha256-5fa57205e9.png">
+    <meta name="msapplication-TileImage" content="./assets/favicon/sparqulen.png">
     <meta name="msapplication-TileColor" content="#1e6177">
 
     <!-- Main Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://static-prod.rinse.com/assets/favicon/favicon.sha256-b548e1e758.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/sparqulen.png">
 
-    <meta name="theme-color" content="#1e6177">
+    <meta name="theme-color" content="#092129ff">
     <link rel="manifest" href="https://static-prod.rinse.com/assets/favicon/site.sha256-da4beb77d2.webmanifest">
 
     <link href="https://www.rinse.com/" rel="canonical">

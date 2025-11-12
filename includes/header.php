@@ -1,16 +1,3 @@
-<div id="announcement-banner" class="announcement-banner uk-slider uk-slider-container" uk-slider="center: true; autoplay: true">
-            <ul class="announcement-banner__slider-items uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m" style="transform: translate3d(0px, 0px, 0px);">
-              
-                
-                  <li class="announcement-banner__item uk-active" tabindex="-1"><span>Rinse is officially live in Toronto! 🇨🇦</span></li>
-                
-              
-            </ul>
-          </div>
-           <ul class="rinse-button--primary__skip-links skip-links">
-      <li><a href="#main-content" class="hero-cta-callout__button rinse-button rinse-button--primary__skip-links" role="button">Skip to Main Content</a></li>
-    </ul>
-    
 
     <div class=" uk-offcanvas-content page__wrapper content__container content__container--sticky-footer">
 
@@ -25,9 +12,10 @@
 
         <li class="nav-item nav-item--logo nav-item--home">
           <a id="nav__a--home" class="nav__link" href="/" aria-label="Home">
-            <figure class="figure--logo logo--nav-left" role="none" aria-hidden="true"></figure>
+            <img src="sparqulen.png" alt="Logo" class="logo--nav-left" style="height:50px;width:auto;object-fit:contain;">
           </a>
         </li>
+
 
         <li class="nav-item nav-item--services-pricing">
           <a id="nav__a--services-pricing" class="nav__link " href="/services-pricing/">Services and Pricing</a>
@@ -41,64 +29,7 @@
           <a id="nav__a--partner" class="nav__link " href="/partner/">For Business</a>
         </li>
 
-        <li class="nav-item nav-item--locations">
-          <a id="nav__a--locations" class="nav__link" href="#" aria-haspopup="true" aria-expanded="false">Locations <span class="rinse-icon rinse-icon--chevron-down nav__dropdown-chevron" aria-hidden="true"></span></a>
-          <div class="nav__dropdown uk-navbar-dropdown uk-dropdown" uk-dropdown="offset: -8;mode: click;">
-            <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-san-francisco/">San Francisco Bay Area</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-new-york/">New York</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-los-angeles/">Los Angeles</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-washington-dc/">D.C. Metro Area</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-chicago/">Chicago</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-toronto/">Toronto</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-boston/">Boston</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-dallas/">Dallas</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-austin/">Austin</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-new-jersey/">New Jersey</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-seattle/">Seattle</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-san-jose/">San Jose</a>
-              </li>
-
-              <li class="nav__dropdown-item">
-                <a class="nav__dropdown-link" href="/dry-cleaning-laundry-service-oakland/">Oakland</a>
-              </li>
-            </ul>
-          </div>
-        </li>
+        
       </ul>
     </div><!-- .navbar--pages -->
 
@@ -163,7 +94,8 @@
 
   <li class="nav-item nav-item--log-in">
     
-      <a data-go-to-login="header" class="nav__link nav__link--log-in" href="/accounts/login/">Log in</a>
+     <a data-go-to-login="header" href="/accounts/login/" style="background:#F4D44C;color:#000;padding:10px 22px;border-radius:30px;box-shadow:0 4px 10px rgba(0,0,0,0.2);font-weight:600;text-decoration:none;transition:0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">Book Now</a>
+
     
   </li>
 
