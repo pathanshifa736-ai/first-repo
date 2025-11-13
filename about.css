@@ -1,0 +1,41 @@
+
+.about-intro {
+  padding: 5rem 8%;
+  background: linear-gradient(180deg, #fdfdfb 0%, #f7fff9 100%);
+}
+.about-intro h2 {
+  text-align: center;
+  color: #03533a;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+.about-split {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 3rem;
+  align-items: center;
+}
+.about-split p {
+  color: #222;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+.about-split img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 20px;
+  box-shadow: 0 8px 35px rgba(0,0,0,0.15);
+  filter: brightness(0.96) contrast(1.02);
+  mix-blend-mode: multiply;
+  transition: all 0.4s ease;
+}
+.about-split img:hover {
+  transform: scale(1.02);
+  filter: brightness(1.03);
+}
+.about-split strong,
+.about-split em {
+  color: #F4D44C;
+}
+

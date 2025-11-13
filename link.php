@@ -40,7 +40,7 @@
 
     <!-- Android Favicons -->
     <link rel="icon" type="image/png" sizes="192x192" href="https://static-prod.rinse.com/assets/favicon/android-icon-192x192.sha256-2df66a93e3.png">
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Microsoft Favicons -->
     <meta name="msapplication-TileImage" content="./assets/favicon/sparqulen.png">
     <meta name="msapplication-TileColor" content="#1e6177">
@@ -263,7 +263,7 @@
     </title>
 
     
-    <link rel="stylesheet" href="./assets/bundles/base_rebrand.1.sha256-5777f910ce.css">
+    <link rel="stylesheet" href="assets/bundles/base_rebrand.1.sha256-5777f910ce.css">
 <script type="module" crossorigin="" src="https://static-prod.rinse.com/assets/bundles/base_rebrand.sha256-b5e6d07fee.js"></script>
 <link href="https://static-prod.rinse.com/assets/bundles/internal_customer_edit_inner.sha256-cdbca4f708.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script">
 <link href="https://static-prod.rinse.com/assets/bundles/uikit.sha256-3a440a2b4d.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script">

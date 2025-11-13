@@ -1,7 +1,57 @@
+ <div id="splash--rinse" class="splash rinse-splash" aria-hidden="true" style="display: none;">
+  <div class="rinse-splash__content-wrapper">
+    <div class="rinse-splash__image-wrapper">
+      <!-- using a background image instead of <img > to prevent the image from displaying before css loads on the page -->
+      <div class="rinse-splash__image"></div>
+    </div>
+    <div class="rinse-splash__text">Want to save 3 hours per week?</div>
+  </div>
+</div>
+
+  
+
+  
+    <div id="lead-capture-popup-container"></div>
+
+    
+
+
+  
+
+
+    
+
+    
+      
+      <!--- header start --->  
+          <div id="announcement-banner" class="announcement-banner uk-slider uk-slider-container" uk-slider="center: true; autoplay: true">
+            <ul class="announcement-banner__slider-items uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m" style="transform: translate3d(0px, 0px, 0px);">
+              
+                
+                  <li class="announcement-banner__item uk-active" tabindex="-1"><span>Discover Sparqulen today! ✨</span></li>
+                
+              
+            </ul>
+          </div>
+        
+      
+    
+
+    
+    <ul class="rinse-button--primary__skip-links skip-links">
+      <li><a href="#main-content" class="hero-cta-callout__button rinse-button rinse-button--primary__skip-links" role="button">Skip to Main Content</a></li>
+    </ul>
+    
 
     <div class=" uk-offcanvas-content page__wrapper content__container content__container--sticky-footer">
 
-      <div class="navbar__wrapper ">
+      
+
+      
+  
+    
+
+<div class="navbar__wrapper ">
 
   
 
@@ -12,24 +62,29 @@
 
         <li class="nav-item nav-item--logo nav-item--home">
           <a id="nav__a--home" class="nav__link" href="/" aria-label="Home">
-            <img src="sparqulen.png" alt="Logo" class="logo--nav-left" style="height:50px;width:auto;object-fit:contain;">
+            <figure class="figure--logo logo--nav-left" role="none" aria-hidden="true"></figure>
           </a>
         </li>
 
-
-        <li class="nav-item nav-item--services-pricing">
-          <a id="nav__a--services-pricing" class="nav__link " href="/services-pricing/">Services and Pricing</a>
+        <li class="nav-item nav-item--services">
+          <a id="nav__a--services" class="nav__link " href="/services/">Services</a>
         </li>
 
-        <li class="nav-item nav-item--rinse-repeat">
-          <a id="nav__a--rinse-repeat" class="nav__link " href="/repeat/">Rinse Repeat</a>
+         <li class="nav-item nav-item--aboutus">
+          <a id="nav__a--aboutus" class="nav__link " href="/aboutus/">About Us</a>
+        </li>
+         <li class="nav-item nav-item--contactus">
+          <a id="nav__a--contactus" class="nav__link " href="/contactus/">Contact Us</a>
+        </li>
+ <li class="nav-item nav-item--blog">
+          <a id="nav__a--blog" class="nav__link " href="/blog/">Blog</a>
         </li>
 
         <li class="nav-item nav-item--partner">
           <a id="nav__a--partner" class="nav__link " href="/partner/">For Business</a>
         </li>
 
-        
+       
       </ul>
     </div><!-- .navbar--pages -->
 
@@ -94,11 +149,10 @@
 
   <li class="nav-item nav-item--log-in">
     
-     <a data-go-to-login="header" href="/accounts/login/" style="background:#F4D44C;color:#000;padding:10px 22px;border-radius:30px;box-shadow:0 4px 10px rgba(0,0,0,0.2);font-weight:600;text-decoration:none;transition:0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">Book Now</a>
+     <a data-go-to-login="header" href="booknow" style="background:#F4D44C;color:#000;padding:10px 22px;border-radius:30px;box-shadow:0 4px 10px rgba(0,0,0,0.2);font-weight:600;text-decoration:none;transition:0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">Book Now</a>
 
     
   </li>
-
 
 
         </ul>
@@ -143,40 +197,4 @@
 
 </div>
 
-<div class="fixed-bottom-center-cta-wrapper" data-fade-in-below-hero="" data-match-background-color="" style="opacity: 0; visibility: hidden; background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)); transition: opacity 600ms, visibility 600ms;">
   
-
-
-
-<a href="/customers/signup/" class="dynamic-schedule-cta background--light " data-dynamic-schedule-cta="fixed-bottom" data-schedule-pickup-cta="" data-segment-cta="dynamic-schedule-cta" data-segment-cta-location="fixed-bottom" data-select-service="" data-testid="fixed-mobile-cta-button">
-  <div class="dynamic-schedule-cta__content">
-    <div class="dynamic-schedule-cta__clickable-area" data-dynamic-schedule-cta-area="pickup">
-      <strong class="dynamic-schedule-cta__heading">Pickup</strong>
-      <span class="dynamic-schedule-cta__text" data-dynamic-cta-pickup="">
-        Tonight
-        
-      </span>
-    </div>
-    <div class="dynamic-schedule-cta__divider"></div>
-    <div class="dynamic-schedule-cta__clickable-area" data-dynamic-schedule-cta-area="where">
-      <strong class="dynamic-schedule-cta__heading">Where</strong>
-      <span class="dynamic-schedule-cta__text dynamic-schedule-cta__text--address" data-dynamic-cta-address="">
-        Add address
-        
-      </span>
-    </div>
-  </div>
-  <div class="dynamic-schedule-cta__icon-circle rinse-button--primary-new no-transform" aria-hidden="true" data-dynamic-schedule-cta-area="arrow">
-    <span class="dynamic-schedule-cta__icon rinse-icon rinse-icon--arrow-right-long"></span>
-  </div>
-</a>
-
-</div>
-
-
-
-      <div class="ribbon__container ribbon__container--base ribbon__container--base--home">
-        
-      </div>
-
-    
